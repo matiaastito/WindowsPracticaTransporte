@@ -86,7 +86,7 @@ namespace WindowsTripulacion
         {
             this.gridAzafatas.DataSource = null;
             this.gridAzafatas.Rows.Clear();       
-            this.gridAzafatas.DataSource= helicopterosList;
+            this.gridAzafatas.DataSource= azafataList;
         }
     }
 }
